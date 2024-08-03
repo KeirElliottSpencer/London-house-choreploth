@@ -16,4 +16,4 @@ __pycache__/
 *.pyo
 *.pyd
 env/
-venv/
+venv/house_price_index.csv
