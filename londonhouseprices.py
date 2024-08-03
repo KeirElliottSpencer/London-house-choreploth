@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import json
 
-london_dataset = pd.read_csv('/Users/elysia/Downloads/house_price_index.csv')
+london_dataset = pd.read_csv('house_price_index.csv')
 london_dataset.head()
 london_dataset.info()
 
@@ -48,7 +48,7 @@ filtered_geojson = {
 }
 with open('filtered_geojson.geojson', 'w') as f:
     json.dump(filtered_geojson, f)
-with open('/Users/elysia/Documents/Coding Projects/filtered_geojson.geojson') as f:
+with open('/Users/elysia/Coding Projects Repos/London-house-choreploth/filtered_geojson.geojson') as f:
     geojson = json.load(f)
 
 global_min_price = london_dataset['average_price'].min()
