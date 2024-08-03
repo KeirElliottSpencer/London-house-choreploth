@@ -22,3 +22,7 @@ The project produces an interactive map of London, where each borough is colored
 	•	Hover Information: Detailed information, including the borough name and formatted average price, is displayed when hovering over a borough.
 	•	Animation: The map can animate to show changes in average prices by year.
 	•	Colour Scale: The colour scale reflects the range of average prices, with options to view different years’ data.
+
+ ## Results
+
+ 
