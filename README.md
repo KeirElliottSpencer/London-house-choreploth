@@ -25,4 +25,4 @@ The project produces an interactive map of London, where each borough is colored
 
  ## Results
 
- 
+ ![Choropleth](images/5D631073-1CFE-4FC7-80CE-14BA360D785A.jpeg)

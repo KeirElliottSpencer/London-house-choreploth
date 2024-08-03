@@ -1,1 +1,19 @@
+# Ignore data files
+house_price_index.csv
+
+# Ignore all CSV files
+*.csv
+
+# Ignore images directory
+images/
+
+# Ignore macOS system file
 .DS_Store
+
+# Ignore Python cache and virtual environment directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
